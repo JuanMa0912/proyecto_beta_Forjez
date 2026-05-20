@@ -2,4 +2,4 @@
 
 Materiales fuente y archivos de apoyo.
 
-El ZIP original del pack FORJEZ se conserva en `resources/archives/` para trazabilidad.
+No versionar archivos comprimidos o pesados salvo que exista una razon clara de trazabilidad. Si se necesita conservar una fuente externa, documentar su origen aqui y preferir enlaces o instrucciones reproducibles.

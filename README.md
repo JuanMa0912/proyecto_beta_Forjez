@@ -2,7 +2,7 @@
 
 Repositorio publico base para construir la presencia digital y la futura plataforma operativa de FORJEZ Consulting.
 
-Este repo fue inicializado desde `resources/archives/forjez_claude_stitch_agent_pack.zip` y deja listas las instrucciones para Claude, agentes, Stitch, documentacion, estructura tecnica y flujo Git.
+Este repo fue inicializado desde el pack FORJEZ Claude + Stitch y deja listas las instrucciones para Claude, agentes, Stitch, documentacion, estructura tecnica y flujo Git.
 
 ## Identidad del repositorio
 
