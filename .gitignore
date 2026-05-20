@@ -51,3 +51,7 @@ Desktop.ini
 
 # Vercel
 .vercel/
+
+# Next/TS
+next-env.d.ts
+*.tsbuildinfo

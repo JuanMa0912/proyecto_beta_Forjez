@@ -78,3 +78,39 @@ Convencion de commits: Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`,
 ## Siguiente paso sugerido
 
 Cuando quieras construir la app real, crea el proyecto Next.js dentro de esta misma estructura o genera el scaffold respetando las carpetas ya preparadas. Antes de implementar UI, leer `DESIGN.md` y `docs/brand_context.md`.
+
+## Desarrollo local
+
+Requisitos: Node.js 18.18 o superior (recomendado 20+) y npm 10+.
+
+```bash
+npm install
+cp .env.example .env.local   # ajusta los valores
+npm run dev                  # http://localhost:3000
+```
+
+Scripts disponibles:
+
+- `npm run dev` — servidor de desarrollo.
+- `npm run build` — build de producción.
+- `npm run start` — servidor productivo (requiere build previo).
+- `npm run lint` — ESLint con `next/core-web-vitals`.
+- `npm run typecheck` — verificación de tipos con `tsc --noEmit`.
+
+## Despliegue en Vercel
+
+1. Sube los cambios a GitHub: `git add . && git commit -m "feat: scaffold landing Fase 1" && git push`.
+2. En [vercel.com](https://vercel.com) → **New Project** → importa el repo `proyecto_beta_Forjez`.
+3. Framework: **Next.js** (autodetectado). No cambies `Build Command` ni `Output Directory`.
+4. En **Environment Variables**, agrega las claves de `.env.example` (al menos `NEXT_PUBLIC_SITE_URL` apuntando al dominio final). Las variables de DB/Auth solo aplican en Fase 2.
+5. Pulsa **Deploy**. La primera build toma ~1–2 min.
+6. Tras desplegar, configura el dominio definitivo desde **Settings → Domains**.
+
+El proyecto ya incluye `vercel.json` con la configuración base y headers de seguridad en `next.config.mjs`.
+
+## Estado del scaffold
+
+- Landing Fase 1 implementada: Header, Hero, Problemas, Pilares, Metodología, Resultados, Testimonios (placeholders), Contacto, CTA final y Footer.
+- Formulario de contacto con validación Zod, React Hook Form, server action, rate limit en memoria y honeypot anti-bot.
+- Métricas mostradas con placeholders `X` — no se inventan cifras reales. TODO: reemplazar cuando existan casos documentados.
+- Sin backend ni Prisma activos todavía. Fase 2 conecta DB, NextAuth y panel admin.

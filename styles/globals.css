@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: #ffffff;
+  color: #172026;
+  font-feature-settings: 'cv11', 'ss01';
+}
+
+::selection {
+  background-color: #12343b;
+  color: #ffffff;
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    color: #12343B;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    outline: 2px solid #12343B;
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+}
+
+@layer components {
+  .container-fz {
+    @apply mx-auto w-full max-w-content px-5 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-pill bg-forjez-ink px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-[#0d2930] focus-visible:outline-forjez-gold disabled:opacity-60;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-pill border border-forjez-border bg-white px-6 py-3 text-sm font-semibold text-forjez-ink transition hover:border-forjez-ink hover:text-forjez-ink;
+  }
+
+  .btn-accent {
+    @apply inline-flex items-center justify-center rounded-pill bg-forjez-gold px-6 py-3 text-sm font-semibold text-forjez-ink transition hover:bg-[#b8941f];
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-forjez-green;
+  }
+
+  .card-fz {
+    @apply rounded-card border border-forjez-border bg-white p-7 shadow-card transition hover:-translate-y-0.5 hover:shadow-[0_2px_4px_rgba(23,32,38,0.05),_0_16px_32px_rgba(23,32,38,0.08)];
+  }
+
+  .section {
+    @apply py-20 md:py-28;
+  }
+}
