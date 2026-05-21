@@ -83,8 +83,8 @@ export function ContactForm() {
         aria-live="polite"
         className="rounded-card border border-state-success/30 bg-state-success/5 p-8 text-center"
       >
-        <h3 className="text-h3 font-semibold text-forjez-ink">Recibimos tu solicitud</h3>
-        <p className="mt-3 text-forjez-muted">
+        <h3 className="text-h3 font-semibold text-forjex-ink">Recibimos tu solicitud</h3>
+        <p className="mt-3 text-forjex-muted">
           Un consultor revisará tu información y se pondrá en contacto en un plazo de 1 día hábil.
         </p>
         <button
@@ -105,7 +105,7 @@ export function ContactForm() {
     <form
       noValidate
       onSubmit={onSubmit}
-      className="rounded-card border border-forjez-border bg-white p-6 shadow-card md:p-10"
+      className="rounded-card border border-forjex-border bg-white p-6 shadow-card md:p-10"
       aria-describedby={serverError ? 'contact-error' : undefined}
     >
       <div className="grid gap-5 md:grid-cols-2">
@@ -254,8 +254,8 @@ export function ContactForm() {
       )}
 
       <div className="mt-8 flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
-        <p className="text-xs text-forjez-muted">
-          Al enviar este formulario aceptas que FORJEZ Consulting te contacte para evaluar tu
+        <p className="text-xs text-forjex-muted">
+          Al enviar este formulario aceptas que FORJEX Consulting te contacte para evaluar tu
           solicitud. Tus datos se tratan con confidencialidad.
         </p>
         <button type="submit" disabled={isPending} className="btn-primary">
@@ -291,7 +291,7 @@ function Field({
 }) {
   return (
     <div className={className}>
-      <label htmlFor={id} className="block text-sm font-medium text-forjez-ink">
+      <label htmlFor={id} className="block text-sm font-medium text-forjex-ink">
         {label}
         {required && (
           <span className="ml-1 text-state-error" aria-hidden="true">
@@ -301,7 +301,7 @@ function Field({
       </label>
       <div className="mt-1.5">{children}</div>
       {hint && !error && (
-        <p className="mt-1.5 text-xs text-forjez-muted">{hint}</p>
+        <p className="mt-1.5 text-xs text-forjex-muted">{hint}</p>
       )}
       {error && (
         <p className="mt-1.5 text-xs text-state-error" role="alert">
@@ -314,7 +314,7 @@ function Field({
 
 function inputClass(invalid: boolean) {
   return cn(
-    'block w-full rounded-xl border bg-white px-4 py-2.5 text-sm text-forjez-text shadow-soft transition placeholder:text-forjez-muted/60 focus:border-forjez-ink focus:outline-none focus:ring-2 focus:ring-forjez-ink/15',
-    invalid ? 'border-state-error focus:ring-state-error/20' : 'border-forjez-border',
+    'block w-full rounded-xl border bg-white px-4 py-2.5 text-sm text-forjex-text shadow-soft transition placeholder:text-forjex-muted/60 focus:border-forjex-ink focus:outline-none focus:ring-2 focus:ring-forjex-ink/15',
+    invalid ? 'border-state-error focus:ring-state-error/20' : 'border-forjex-border',
   );
 }

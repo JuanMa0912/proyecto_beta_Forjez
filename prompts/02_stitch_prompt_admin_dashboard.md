@@ -1,6 +1,6 @@
-# Prompt para Stitch — Dashboard administrativo FORJEZ
+# Prompt para Stitch — Dashboard administrativo FORJEX
 
-Create a high-fidelity responsive admin dashboard for FORJEZ Consulting to manage leads, client diagnostics, proposals and consulting projects.
+Create a high-fidelity responsive admin dashboard for FORJEX Consulting to manage leads, client diagnostics, proposals and consulting projects.
 
 Brand personality:
 - Executive.

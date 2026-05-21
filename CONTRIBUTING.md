@@ -1,4 +1,4 @@
-# Contribuir a FORJEZ Consulting
+# Contribuir a FORJEX Consulting
 
 Gracias por ayudar a construir este proyecto. El objetivo es mantener un repositorio claro, seguro y facil de evolucionar.
 

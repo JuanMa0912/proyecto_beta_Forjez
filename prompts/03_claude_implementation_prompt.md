@@ -1,6 +1,6 @@
 # Prompt para Claude — Implementar diseño de Stitch
 
-Tengo un diseño/prototipo generado en Stitch para FORJEZ Consulting. Conviértelo en una implementación real, mantenible y segura usando Next.js, TypeScript y Tailwind CSS.
+Tengo un diseño/prototipo generado en Stitch para FORJEX Consulting. Conviértelo en una implementación real, mantenible y segura usando Next.js, TypeScript y Tailwind CSS.
 
 ## Debes hacer
 

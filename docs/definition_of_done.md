@@ -3,7 +3,7 @@
 Una tarea se considera terminada cuando:
 
 - Cumple los criterios de aceptación.
-- Respeta la identidad de FORJEZ.
+- Respeta la identidad de FORJEX.
 - Tiene diseño responsive.
 - Tiene estados de carga, vacío y error cuando aplica.
 - Valida entradas.

@@ -1,6 +1,6 @@
 # Prompt para Claude — Revisión final, seguridad y hardening
 
-Revisa el proyecto FORJEZ Consulting como si fueras auditor técnico antes de despliegue.
+Revisa el proyecto FORJEX Consulting como si fueras auditor técnico antes de despliegue.
 
 ## Debes revisar
 

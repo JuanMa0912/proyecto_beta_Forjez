@@ -12,9 +12,9 @@ type Props = {
 
 export function Section({ id, eyebrow, title, description, children, className, surface = 'default' }: Props) {
   const surfaces = {
-    default: 'bg-white text-forjez-text',
-    muted: 'bg-forjez-surface text-forjez-text',
-    ink: 'bg-forjez-ink text-white',
+    default: 'bg-white text-forjex-text',
+    muted: 'bg-forjex-surface text-forjex-text',
+    ink: 'bg-forjex-ink text-white',
   } as const;
 
   return (
@@ -22,12 +22,12 @@ export function Section({ id, eyebrow, title, description, children, className, 
       <div className="container-fz">
         {(eyebrow || title || description) && (
           <header className="mx-auto mb-12 max-w-3xl text-center md:mb-16">
-            {eyebrow && <span className={cn('eyebrow', surface === 'ink' && 'text-forjez-gold')}>{eyebrow}</span>}
+            {eyebrow && <span className={cn('eyebrow', surface === 'ink' && 'text-forjex-gold')}>{eyebrow}</span>}
             {title && (
               <h2
                 className={cn(
                   'mt-4 text-h2 font-semibold',
-                  surface === 'ink' ? 'text-white' : 'text-forjez-ink',
+                  surface === 'ink' ? 'text-white' : 'text-forjex-ink',
                 )}
               >
                 {title}
@@ -37,7 +37,7 @@ export function Section({ id, eyebrow, title, description, children, className, 
               <p
                 className={cn(
                   'mt-5 text-base md:text-lg leading-relaxed',
-                  surface === 'ink' ? 'text-white/80' : 'text-forjez-muted',
+                  surface === 'ink' ? 'text-white/80' : 'text-forjex-muted',
                 )}
               >
                 {description}

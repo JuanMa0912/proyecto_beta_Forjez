@@ -1,12 +1,12 @@
-# Prompt para Stitch — Landing page FORJEZ Consulting
+# Prompt para Stitch — Landing page FORJEX Consulting
 
-Create a high-fidelity responsive landing page design for a consulting firm named FORJEZ Consulting.
+Create a high-fidelity responsive landing page design for a consulting firm named FORJEX Consulting.
 
 Use this brand context:
 
-- Brand: FORJEZ Consulting
+- Brand: FORJEX Consulting
 - Tagline: “Donde la estrategia se convierte en resultados”
-- Core promise: FORJEZ transforms a company's operational potential into sustainable and measurable results.
+- Core promise: FORJEX transforms a company's operational potential into sustainable and measurable results.
 - Personality: strategic, executive, trustworthy, sober, premium, clear, business-oriented.
 - Target users: business owners, general managers, operations directors, administrative leaders, and growing companies that need operational order, control, scalability, and better decision-making.
 
@@ -26,7 +26,7 @@ Required sections:
 
 1. Sticky header with logo placeholder, navigation and CTA.
 2. Hero section with a strong headline about turning operations into measurable results.
-3. Subheadline explaining that FORJEZ diagnoses, designs and implements efficient, scalable operating systems.
+3. Subheadline explaining that FORJEX diagnoses, designs and implements efficient, scalable operating systems.
 4. Primary CTA: “Solicitar diagnóstico”.
 5. Secondary CTA: “Ver servicios”.
 6. “Problemas que resolvemos” section with 4 cards:

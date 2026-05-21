@@ -35,8 +35,8 @@ export function Problems() {
       <ul className="grid gap-5 md:grid-cols-2">
         {problems.map((p) => (
           <li key={p.title} className="card-fz">
-            <h3 className="text-h3 font-semibold text-forjez-ink">{p.title}</h3>
-            <p className="mt-3 text-forjez-muted">{p.description}</p>
+            <h3 className="text-h3 font-semibold text-forjex-ink">{p.title}</h3>
+            <p className="mt-3 text-forjex-muted">{p.description}</p>
           </li>
         ))}
       </ul>

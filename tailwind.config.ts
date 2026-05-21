@@ -20,7 +20,7 @@ const config: Config = {
     },
     extend: {
       colors: {
-        forjez: {
+        forjex: {
           ink: '#12343B',
           green: '#2E7D68',
           gold: '#C9A227',

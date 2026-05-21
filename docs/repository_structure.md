@@ -22,7 +22,7 @@ Este repositorio separa documentacion, prompts, agentes y codigo futuro para que
 
 - `docs/`: decisiones, requerimientos y reglas del proyecto.
 - `prompts/`: prompts para Claude, Stitch, implementacion y hardening.
-- `.claude/`: agentes y skills del pack FORJEZ.
+- `.claude/`: agentes y skills del pack FORJEX.
 - `.github/`: plantillas de colaboracion.
 - `scripts/`: automatizaciones.
 - `tests/`: pruebas.

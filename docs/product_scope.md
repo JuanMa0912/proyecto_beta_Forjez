@@ -10,7 +10,7 @@
 - Cliente potencial que necesita ordenar su operación.
 
 ### Objetivo del usuario
-Entender rápidamente qué hace FORJEZ, qué problemas resuelve, cómo trabaja y cómo solicitar un diagnóstico.
+Entender rápidamente qué hace FORJEX, qué problemas resuelve, cómo trabaja y cómo solicitar un diagnóstico.
 
 ### Objetivo del negocio
 Generar confianza, educar al prospecto y capturar leads calificados.
@@ -18,8 +18,8 @@ Generar confianza, educar al prospecto y capturar leads calificados.
 ## Producto 2 — Panel administrativo inicial
 
 ### Usuarios
-- Administrador FORJEZ.
-- Consultor FORJEZ.
+- Administrador FORJEX.
+- Consultor FORJEX.
 - Líder comercial.
 
 ### Objetivo

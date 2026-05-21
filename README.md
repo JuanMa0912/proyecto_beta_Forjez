@@ -1,14 +1,14 @@
-# proyecto_beta_Forjez
+# proyecto_beta_Forjex
 
-Repositorio publico base para construir la presencia digital y la futura plataforma operativa de FORJEZ Consulting.
+Repositorio publico base para construir la presencia digital y la futura plataforma operativa de FORJEX Consulting.
 
-Este repo fue inicializado desde el pack FORJEZ Claude + Stitch y deja listas las instrucciones para Claude, agentes, Stitch, documentacion, estructura tecnica y flujo Git.
+Este repo fue inicializado desde el pack FORJEX Claude + Stitch y deja listas las instrucciones para Claude, agentes, Stitch, documentacion, estructura tecnica y flujo Git.
 
 ## Identidad del repositorio
 
-- Nombre: `proyecto_beta_Forjez`
+- Nombre: `proyecto_beta_Forjex`
 - Visibilidad esperada: publico
-- Producto: FORJEZ Consulting
+- Producto: FORJEX Consulting
 
 ## Estado actual
 
@@ -44,7 +44,7 @@ Este repo fue inicializado desde el pack FORJEZ Claude + Stitch y deja listas la
 ## Lectura recomendada
 
 1. `AGENTS.md`: reglas canonicas para agentes de codigo.
-2. `CLAUDE.md`: instrucciones maestras del proyecto FORJEZ.
+2. `CLAUDE.md`: instrucciones maestras del proyecto FORJEX.
 3. `DESIGN.md`: direccion visual para Stitch y UI.
 4. `docs/brand_context.md`: tono, posicionamiento y marca.
 5. `docs/security_requirements.md`: reglas de seguridad obligatorias.
@@ -100,7 +100,7 @@ Scripts disponibles:
 ## Despliegue en Vercel
 
 1. Sube los cambios a GitHub: `git add . && git commit -m "feat: scaffold landing Fase 1" && git push`.
-2. En [vercel.com](https://vercel.com) → **New Project** → importa el repo `proyecto_beta_Forjez`.
+2. En [vercel.com](https://vercel.com) → **New Project** → importa el repo `proyecto_beta_Forjex`.
 3. Framework: **Next.js** (autodetectado). No cambies `Build Command` ni `Output Directory`.
 4. En **Environment Variables**, agrega las claves de `.env.example` (al menos `NEXT_PUBLIC_SITE_URL` apuntando al dominio final). Las variables de DB/Auth solo aplican en Fase 2.
 5. Pulsa **Deploy**. La primera build toma ~1–2 min.

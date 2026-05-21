@@ -46,23 +46,23 @@ body {
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-pill bg-forjez-ink px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-[#0d2930] focus-visible:outline-forjez-gold disabled:opacity-60;
+    @apply inline-flex items-center justify-center rounded-pill bg-forjex-ink px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-[#0d2930] focus-visible:outline-forjex-gold disabled:opacity-60;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center rounded-pill border border-forjez-border bg-white px-6 py-3 text-sm font-semibold text-forjez-ink transition hover:border-forjez-ink hover:text-forjez-ink;
+    @apply inline-flex items-center justify-center rounded-pill border border-forjex-border bg-white px-6 py-3 text-sm font-semibold text-forjex-ink transition hover:border-forjex-ink hover:text-forjex-ink;
   }
 
   .btn-accent {
-    @apply inline-flex items-center justify-center rounded-pill bg-forjez-gold px-6 py-3 text-sm font-semibold text-forjez-ink transition hover:bg-[#b8941f];
+    @apply inline-flex items-center justify-center rounded-pill bg-forjex-gold px-6 py-3 text-sm font-semibold text-forjex-ink transition hover:bg-[#b8941f];
   }
 
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-forjez-green;
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-forjex-green;
   }
 
   .card-fz {
-    @apply rounded-card border border-forjez-border bg-white p-7 shadow-card transition hover:-translate-y-0.5 hover:shadow-[0_2px_4px_rgba(23,32,38,0.05),_0_16px_32px_rgba(23,32,38,0.08)];
+    @apply rounded-card border border-forjex-border bg-white p-7 shadow-card transition hover:-translate-y-0.5 hover:shadow-[0_2px_4px_rgba(23,32,38,0.05),_0_16px_32px_rgba(23,32,38,0.08)];
   }
 
   .section {

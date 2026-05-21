@@ -1,9 +1,9 @@
 export function FinalCTA() {
   return (
-    <section className="bg-forjez-ink text-white">
+    <section className="bg-forjex-ink text-white">
       <div className="container-fz py-20 md:py-24">
         <div className="mx-auto max-w-3xl text-center">
-          <span className="eyebrow text-forjez-gold">El siguiente paso</span>
+          <span className="eyebrow text-forjex-gold">El siguiente paso</span>
           <h2 className="mt-5 text-h2 font-semibold text-white">
             El potencial de tu empresa ya existe. Nosotros lo transformamos en resultados.
           </h2>

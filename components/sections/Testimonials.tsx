@@ -16,7 +16,7 @@ const items = [
   },
   {
     quote:
-      'Espacio reservado para el testimonio de un cliente que ordenó su estructura organizacional con FORJEZ.',
+      'Espacio reservado para el testimonio de un cliente que ordenó su estructura organizacional con FORJEX.',
     name: 'Nombre cliente',
     role: 'Cargo, Empresa',
   },
@@ -34,18 +34,18 @@ export function Testimonials() {
       <ul className="grid gap-5 md:grid-cols-3">
         {items.map((t, i) => (
           <li key={i} className="card-fz flex flex-col">
-            <span aria-hidden="true" className="text-3xl leading-none text-forjez-gold">“</span>
-            <blockquote className="mt-3 flex-1 text-sm leading-relaxed text-forjez-text">
+            <span aria-hidden="true" className="text-3xl leading-none text-forjex-gold">“</span>
+            <blockquote className="mt-3 flex-1 text-sm leading-relaxed text-forjex-text">
               {t.quote}
             </blockquote>
-            <footer className="mt-6 border-t border-forjez-border pt-4 text-sm">
-              <div className="font-semibold text-forjez-ink">{t.name}</div>
-              <div className="text-forjez-muted">{t.role}</div>
+            <footer className="mt-6 border-t border-forjex-border pt-4 text-sm">
+              <div className="font-semibold text-forjex-ink">{t.name}</div>
+              <div className="text-forjex-muted">{t.role}</div>
             </footer>
           </li>
         ))}
       </ul>
-      <p className="mt-6 text-center text-xs text-forjez-muted">
+      <p className="mt-6 text-center text-xs text-forjex-muted">
         Placeholders. Reemplazar con testimonios reales y firmados.
       </p>
     </Section>

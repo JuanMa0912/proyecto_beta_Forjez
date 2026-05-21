@@ -1,7 +1,7 @@
-# Contexto de marca — FORJEZ Consulting
+# Contexto de marca — FORJEX Consulting
 
 ## Nombre
-FORJEZ Consulting
+FORJEX Consulting
 
 ## Eslogan
 “Donde la estrategia se convierte en resultados”
@@ -10,7 +10,7 @@ FORJEZ Consulting
 Somos el socio estratégico que transforma el potencial de tu empresa en resultados sostenibles y medibles. No solo diagnosticamos; nos involucramos en el núcleo de tu operación para diseñar e implementar sistemas eficientes, escalables y perfectamente alineados con el crecimiento de tu negocio.
 
 ## Misión
-Optimizamos y estructuramos las operaciones empresariales a través de un estudio general y transformación de procesos, orientados a potenciar la eficiencia, mejorar el control organizacional e impulsar la toma de decisiones. Nuestro enfoque permite transformar el potencial de cada empresa en resultados sostenibles y medibles, mediante la implementación de sistemas operativos eficientes, escalables y alineados con su crecimiento.
+Optimizamos y estructuramos las operaciones empresariales a través de un estudio general y transformación de procesos, orientados a potenciar la eficiencia, mejorar el control organizacional e impulsar la toma de decisiones. Nuestro enfoque permite transformar el potencial de cada empresa en resultados sostenibles y medibles, mediante la implementación de modelos operativos eficientes, escalables y alineados con su crecimiento.
 
 ## Visión
 Para el 2030, consolidarnos como el socio estratégico líder en la optimización y transformación de operaciones empresariales, trabajando con organizaciones en crecimiento y empresas consolidadas para desarrollar sistemas eficientes, escalables y orientados a resultados, estableciendo un estándar de efectividad que respalde nuestro alcance regional.

@@ -45,33 +45,33 @@ export function Pillars() {
       id="servicios"
       eyebrow="Pilares de servicio"
       title="Tres frentes para transformar tu operación"
-      description="Cada pilar entrega un componente clave del sistema operativo de la empresa. Se diseñan por separado, pero funcionan como una sola estructura."
+      description="Cada pilar entrega un componente clave de la estructura operativa de la empresa. Se diseñan por separado, pero funcionan como una sola estructura."
     >
       <ul className="grid gap-6 md:grid-cols-3">
         {pillars.map((p) => (
           <li key={p.number} className="card-fz flex flex-col">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-semibold tracking-[0.2em] text-forjez-green">
+              <span className="text-xs font-semibold tracking-[0.2em] text-forjex-green">
                 PILAR {p.number}
               </span>
-              <span className="h-9 w-9 rounded-pill bg-forjez-ink/5 text-forjez-ink flex items-center justify-center text-sm font-bold">
+              <span className="h-9 w-9 rounded-pill bg-forjex-ink/5 text-forjex-ink flex items-center justify-center text-sm font-bold">
                 {p.number}
               </span>
             </div>
-            <h3 className="mt-4 text-xl font-semibold text-forjez-ink">{p.name}</h3>
-            <p className="mt-3 text-forjez-muted">{p.focus}</p>
+            <h3 className="mt-4 text-xl font-semibold text-forjex-ink">{p.name}</h3>
+            <p className="mt-3 text-forjex-muted">{p.focus}</p>
 
             <ul className="mt-5 space-y-2 text-sm">
               {p.services.map((s) => (
-                <li key={s} className="flex gap-2 text-forjez-text">
-                  <span aria-hidden="true" className="mt-1.5 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-forjez-gold" />
+                <li key={s} className="flex gap-2 text-forjex-text">
+                  <span aria-hidden="true" className="mt-1.5 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-forjex-gold" />
                   <span>{s}</span>
                 </li>
               ))}
             </ul>
 
-            <p className="mt-6 border-t border-forjez-border pt-4 text-sm font-medium text-forjez-ink">
-              Resultado esperado: <span className="font-normal text-forjez-muted">{p.result}</span>
+            <p className="mt-6 border-t border-forjex-border pt-4 text-sm font-medium text-forjex-ink">
+              Resultado esperado: <span className="font-normal text-forjex-muted">{p.result}</span>
             </p>
           </li>
         ))}

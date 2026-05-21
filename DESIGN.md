@@ -5,7 +5,7 @@ Este documento es la fuente de verdad visual para generar prototipos en Stitch y
 ## 1. Identidad visual
 
 ### Marca
-FORJEZ Consulting
+FORJEX Consulting
 
 ### Eslogan
 “Donde la estrategia se convierte en resultados”
@@ -20,7 +20,7 @@ FORJEZ Consulting
 - Cercana para empresas en crecimiento.
 
 ### Sensación deseada
-La interfaz debe transmitir que FORJEZ entra a la operación real del cliente, ordena procesos, crea control, reduce fricción y convierte la estrategia en resultados medibles.
+La interfaz debe transmitir que FORJEX entra a la operación real del cliente, ordena procesos, crea control, reduce fricción y convierte la estrategia en resultados medibles.
 
 ## 2. Paleta sugerida
 
@@ -82,7 +82,7 @@ Sombras suaves, nunca dramáticas. Deben comunicar profundidad y orden, no ruido
 ## 5. Componentes principales
 
 ### Header
-- Logo FORJEZ.
+- Logo FORJEX.
 - Navegación: Inicio, Servicios, Metodología, Resultados, Contacto.
 - CTA: “Solicitar diagnóstico”.
 - Sticky opcional.
@@ -92,7 +92,7 @@ Sombras suaves, nunca dramáticas. Deben comunicar profundidad y orden, no ruido
 - Subtítulo que explique la promesa.
 - CTA principal: “Solicitar diagnóstico inicial”.
 - CTA secundario: “Ver servicios”.
-- Visual sugerido: dashboard abstracto, mapa de procesos o sistema operativo empresarial.
+- Visual sugerido: dashboard abstracto, mapa de procesos o tablero ejecutivo empresarial.
 
 ### Service Pillar Card
 Cada pilar debe tener:
@@ -204,7 +204,7 @@ Cuando se use Stitch:
 - Pedir estados de formularios.
 - Pedir una estética corporativa no genérica.
 - Evitar exceso de gradientes, mockups irreales o animaciones innecesarias.
-- Usar textos reales de FORJEZ cuando existan.
+- Usar textos reales de FORJEX cuando existan.
 - Usar placeholders claros cuando falte información.
 
 ## 10. Entregable esperado de Stitch

@@ -1,10 +1,10 @@
-# CLAUDE.md — Instrucciones maestras del proyecto FORJEZ Consulting
+# CLAUDE.md — Instrucciones maestras del proyecto FORJEX Consulting
 
-Eres Claude trabajando como equipo técnico, estratégico y de diseño para FORJEZ Consulting.
+Eres Claude trabajando como equipo técnico, estratégico y de diseño para FORJEX Consulting.
 
 ## 1. Contexto del negocio
 
-FORJEZ Consulting es una firma consultora enfocada en transformar el potencial de las empresas en resultados sostenibles y medibles. Su propuesta de valor combina diagnóstico, rediseño operativo, control organizacional, eficiencia y sistemas para la toma de decisiones.
+FORJEX Consulting es una firma consultora enfocada en transformar el potencial de las empresas en resultados sostenibles y medibles. Su propuesta de valor combina diagnóstico, rediseño operativo, control organizacional, eficiencia y sistemas para la toma de decisiones.
 
 El proyecto base debe comunicar autoridad, confianza y capacidad de ejecución. No debe parecer una plantilla genérica. Debe verse como una consultora seria, orientada a empresas en crecimiento y organizaciones que necesitan ordenar su operación.
 
@@ -12,7 +12,7 @@ Consulta siempre `docs/brand_context.md` antes de crear textos, pantallas, dise�
 
 ## 2. Objetivo del proyecto
 
-Construir una base digital para FORJEZ Consulting que pueda evolucionar desde una landing page corporativa hacia una plataforma operativa interna.
+Construir una base digital para FORJEX Consulting que pueda evolucionar desde una landing page corporativa hacia una plataforma operativa interna.
 
 Alcance recomendado por fases:
 
@@ -126,7 +126,7 @@ Cuando respondas al usuario:
 Una entrega está completa cuando:
 
 - Cumple el objetivo funcional.
-- Respeta marca y tono FORJEZ.
+- Respeta marca y tono FORJEX.
 - Tiene diseño coherente con `DESIGN.md`.
 - Tiene validaciones básicas.
 - No introduce secretos.

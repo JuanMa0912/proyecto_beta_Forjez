@@ -18,7 +18,7 @@ Para cambios de ramas, commits o PRs, leer tambien `docs/branching_strategy.md` 
 
 ## Alcance del proyecto
 
-FORJEZ Consulting necesita una presencia digital profesional que pueda crecer hacia una plataforma operativa interna. El stack preferido es Next.js, TypeScript, Tailwind CSS, Zod, Prisma, PostgreSQL y Auth.js cuando exista panel privado.
+FORJEX Consulting necesita una presencia digital profesional que pueda crecer hacia una plataforma operativa interna. El stack preferido es Next.js, TypeScript, Tailwind CSS, Zod, Prisma, PostgreSQL y Auth.js cuando exista panel privado.
 
 ## Estructura esperada
 
@@ -54,7 +54,7 @@ FORJEZ Consulting necesita una presencia digital profesional que pueda crecer ha
 ## Never
 
 - No hardcodear secretos, tokens, contrasenas ni URLs privadas.
-- No inventar datos comerciales, legales, financieros o personales de FORJEZ.
+- No inventar datos comerciales, legales, financieros o personales de FORJEX.
 - No exponer trazas internas al usuario final.
 - No guardar tokens sensibles en `localStorage`.
 - No crear endpoints abiertos para datos internos, leads o clientes.

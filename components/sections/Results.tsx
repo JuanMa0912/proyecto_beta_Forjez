@@ -17,16 +17,16 @@ export function Results() {
     >
       <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {metrics.map((m) => (
-          <li key={m.label} className="rounded-card border border-forjez-border bg-forjez-surface p-7 text-center">
-            <div className="text-4xl font-bold text-forjez-ink">{m.value}</div>
-            <div className="mt-2 text-sm font-semibold uppercase tracking-wider text-forjez-green">
+          <li key={m.label} className="rounded-card border border-forjex-border bg-forjex-surface p-7 text-center">
+            <div className="text-4xl font-bold text-forjex-ink">{m.value}</div>
+            <div className="mt-2 text-sm font-semibold uppercase tracking-wider text-forjex-green">
               {m.label}
             </div>
-            <p className="mt-3 text-xs leading-relaxed text-forjez-muted">{m.note}</p>
+            <p className="mt-3 text-xs leading-relaxed text-forjex-muted">{m.note}</p>
           </li>
         ))}
       </ul>
-      <p className="mt-8 text-center text-xs text-forjez-muted">
+      <p className="mt-8 text-center text-xs text-forjex-muted">
         Métricas placeholder. Se reemplazarán con casos reales documentados.
       </p>
     </Section>

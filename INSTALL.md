@@ -3,8 +3,8 @@
 ## Opción A — Nuevo proyecto Next.js
 
 ```bash
-npx create-next-app@latest forjez-consulting --typescript --tailwind --eslint --app
-cd forjez-consulting
+npx create-next-app@latest forjex-consulting --typescript --tailwind --eslint --app
+cd forjex-consulting
 ```
 
 Copia este paquete dentro de la raíz del proyecto.

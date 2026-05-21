@@ -40,16 +40,16 @@ export function Methodology() {
         {steps.map((s, i) => (
           <li key={s.n} className="card-fz relative">
             <div className="flex items-center gap-3">
-              <span className="flex h-10 w-10 items-center justify-center rounded-pill bg-forjez-ink text-sm font-bold text-white">
+              <span className="flex h-10 w-10 items-center justify-center rounded-pill bg-forjex-ink text-sm font-bold text-white">
                 {s.n}
               </span>
-              <h3 className="text-lg font-semibold text-forjez-ink">{s.title}</h3>
+              <h3 className="text-lg font-semibold text-forjex-ink">{s.title}</h3>
             </div>
-            <p className="mt-4 text-sm leading-relaxed text-forjez-muted">{s.description}</p>
+            <p className="mt-4 text-sm leading-relaxed text-forjex-muted">{s.description}</p>
             {i < steps.length - 1 && (
               <span
                 aria-hidden="true"
-                className="absolute right-4 top-9 hidden text-forjez-border lg:block"
+                className="absolute right-4 top-9 hidden text-forjex-border lg:block"
               >
                 →
               </span>

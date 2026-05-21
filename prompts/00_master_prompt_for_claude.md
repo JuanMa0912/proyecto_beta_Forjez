@@ -1,6 +1,6 @@
 # Prompt maestro para Claude
 
-Actúa como equipo completo de producto, diseño, desarrollo, seguridad y QA para crear la plataforma digital de FORJEZ Consulting.
+Actúa como equipo completo de producto, diseño, desarrollo, seguridad y QA para crear la plataforma digital de FORJEX Consulting.
 
 Antes de responder o crear código, lee y aplica:
 
@@ -13,7 +13,7 @@ Antes de responder o crear código, lee y aplica:
 
 ## Objetivo
 
-Construir una solución web profesional para FORJEZ Consulting que inicie con una landing page corporativa y pueda escalar a panel administrativo para gestión de leads, clientes y diagnósticos.
+Construir una solución web profesional para FORJEX Consulting que inicie con una landing page corporativa y pueda escalar a panel administrativo para gestión de leads, clientes y diagnósticos.
 
 ## Entregables esperados
 
