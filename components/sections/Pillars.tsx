@@ -18,6 +18,24 @@ const responsibilities = [
   },
 ];
 
+const openKnowledgeDetails = [
+  {
+    title: 'Qué hacemos',
+    description:
+      'Brindamos consultoría y capacitación pro-bono a microempresas familiares o negocios tradicionales locales para ayudarlos a digitalizar sus procesos básicos y optimizar sus recursos.',
+  },
+  {
+    title: 'Por qué es coherente',
+    description:
+      'Utiliza el núcleo del negocio de FORJEX: optimización de procesos, estrategia y tecnología. No implica donar dinero, sino transferir conocimiento analítico y técnico a quienes no pueden pagarlo.',
+  },
+  {
+    title: 'Problema social que aborda',
+    description:
+      'Reduce la brecha digital y ayuda a evitar la quiebra de micronegocios locales frente al avance de la automatización y la inteligencia artificial.',
+  },
+];
+
 export function Pillars() {
   return (
     <Section
@@ -52,6 +70,37 @@ export function Pillars() {
           decisiones que protege la operación, fortalece a las personas y mejora la competitividad.
         </p>
       </div>
+
+      <article className="mt-8 overflow-hidden rounded-card border border-forjex-border bg-white shadow-card">
+        <div className="grid lg:grid-cols-12">
+          <div className="bg-forjex-ink p-7 text-white md:p-9 lg:col-span-4">
+            <span className="text-xs font-semibold uppercase tracking-[0.18em] text-forjex-gold">
+              Acción de Responsabilidad Social
+            </span>
+            <h3 className="mt-4 text-2xl font-semibold text-white">
+              Programa FORJEX Open Knowledge
+            </h3>
+            <p className="mt-4 text-sm leading-relaxed text-white/80 md:text-base">
+              Un programa de transferencia de conocimiento para proteger el empleo local,
+              fortalecer negocios tradicionales y acercar herramientas digitales a quienes más las
+              necesitan.
+            </p>
+          </div>
+
+          <div className="grid gap-0 divide-y divide-forjex-border lg:col-span-8 lg:grid-cols-3 lg:divide-x lg:divide-y-0">
+            {openKnowledgeDetails.map((item) => (
+              <div key={item.title} className="p-7 md:p-8">
+                <span className="text-xs font-semibold uppercase tracking-[0.18em] text-forjex-green">
+                  {item.title}
+                </span>
+                <p className="mt-4 text-sm leading-relaxed text-forjex-muted md:text-base">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </article>
     </Section>
   );
 }

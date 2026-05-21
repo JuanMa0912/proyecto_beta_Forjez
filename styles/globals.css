@@ -8,6 +8,8 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
   text-rendering: optimizeLegibility;
 }
 
@@ -40,6 +42,12 @@ body {
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 @layer components {
   .container-fz {
     @apply mx-auto w-full max-w-content px-5 sm:px-6 lg:px-8;
@@ -66,6 +74,6 @@ body {
   }
 
   .section {
-    @apply py-20 md:py-28;
+    @apply scroll-mt-20 py-20 md:scroll-mt-24 md:py-28;
   }
 }

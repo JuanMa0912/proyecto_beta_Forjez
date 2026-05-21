@@ -41,9 +41,6 @@ export function Hero() {
             <a href="#contacto" className="btn-primary">
               Solicitar diagnóstico inicial
             </a>
-            <a href="#servicios" className="btn-secondary">
-              Ver servicios
-            </a>
           </div>
 
           <dl className="mx-auto mt-12 grid max-w-xl grid-cols-1 gap-5 border-t border-forjex-border pt-8 text-sm sm:grid-cols-3 sm:gap-6">
