@@ -1,41 +1,20 @@
 import { Section } from '@/components/ui/Section';
 
-const pillars = [
+const responsibilities = [
   {
-    number: '01',
-    name: 'Estructuración y Optimización de Operaciones',
-    focus:
-      'Diseñar el motor operativo que la empresa necesita para crecer sin perder el control.',
-    services: [
-      'Análisis y Diagnóstico Operacional General',
-      'Rediseño y Transformación de Procesos (BPR)',
-      'Modelos Operativos Escalables',
-    ],
-    result: 'Una operación clara, documentada y lista para escalar.',
+    label: 'Responsabilidad Social',
+    description:
+      'Impulsamos el desarrollo del talento humano mediante formación continua y reskilling tecnológico frente a la automatización y la inteligencia artificial.',
   },
   {
-    number: '02',
-    name: 'Control Organizacional y Eficiencia',
-    focus:
-      'Mitigar riesgos y asegurar que cada recurso se utilice de manera inteligente.',
-    services: [
-      'Estructuración Organizacional',
-      'Manuales de Procesos y Procedimientos',
-      'Establecimiento de Controles Internos',
-    ],
-    result: 'Roles, controles y eficiencia alineados al plan estratégico.',
+    label: 'Responsabilidad Económica',
+    description:
+      'Optimizamos procesos empresariales para mejorar la eficiencia, competitividad y sostenibilidad de las Pymes.',
   },
   {
-    number: '03',
-    name: 'Sistemas para la Toma de Decisiones',
-    focus:
-      'Transformar datos operativos en información estratégica para la alta dirección.',
-    services: [
-      'Diseño de Tableros de Control / Dashboards',
-      'Sistemas de Información Operativa',
-      'Acompañamiento Estratégico',
-    ],
-    result: 'Decisiones basadas en indicadores, no en intuición.',
+    label: 'Responsabilidad Ambiental',
+    description:
+      'Promovemos la digitalización y automatización de procesos para reducir el uso de papel y optimizar recursos operativos.',
   },
 ];
 
@@ -43,39 +22,36 @@ export function Pillars() {
   return (
     <Section
       id="servicios"
-      eyebrow="Pilares de servicio"
-      title="Tres frentes para transformar tu operación"
-      description="Cada pilar entrega un componente clave de la estructura operativa de la empresa. Se diseñan por separado, pero funcionan como una sola estructura."
+      eyebrow="Responsabilidad Organizacional"
+      title="Crecimiento empresarial con desarrollo humano y transformación responsable"
+      description="Entendemos la sostenibilidad como el equilibrio entre eficiencia operativa, competitividad, cuidado de los recursos y preparación del talento frente a los cambios tecnológicos."
     >
       <ul className="grid gap-6 md:grid-cols-3">
-        {pillars.map((p) => (
-          <li key={p.number} className="card-fz flex flex-col">
+        {responsibilities.map((item, index) => (
+          <li key={item.label} className="card-fz flex flex-col">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-semibold tracking-[0.2em] text-forjex-green">
-                PILAR {p.number}
+              <span className="text-xs font-semibold uppercase tracking-[0.18em] text-forjex-green">
+                Eje {String(index + 1).padStart(2, '0')}
               </span>
-              <span className="h-9 w-9 rounded-pill bg-forjex-ink/5 text-forjex-ink flex items-center justify-center text-sm font-bold">
-                {p.number}
+              <span className="flex h-10 w-10 items-center justify-center rounded-pill bg-forjex-ink/5 text-sm font-bold text-forjex-ink">
+                {index + 1}
               </span>
             </div>
-            <h3 className="mt-4 text-xl font-semibold text-forjex-ink">{p.name}</h3>
-            <p className="mt-3 text-forjex-muted">{p.focus}</p>
-
-            <ul className="mt-5 space-y-2 text-sm">
-              {p.services.map((s) => (
-                <li key={s} className="flex gap-2 text-forjex-text">
-                  <span aria-hidden="true" className="mt-1.5 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-forjex-gold" />
-                  <span>{s}</span>
-                </li>
-              ))}
-            </ul>
-
-            <p className="mt-6 border-t border-forjex-border pt-4 text-sm font-medium text-forjex-ink">
-              Resultado esperado: <span className="font-normal text-forjex-muted">{p.result}</span>
+            <h3 className="mt-5 text-xl font-semibold text-forjex-ink">{item.label}</h3>
+            <p className="mt-4 text-sm leading-relaxed text-forjex-muted md:text-base">
+              {item.description}
             </p>
           </li>
         ))}
       </ul>
+
+      <div className="mt-8 rounded-card border border-forjex-border bg-forjex-surface p-7 text-center md:p-9">
+        <span className="eyebrow">Enfoque sostenible</span>
+        <p className="mx-auto mt-4 max-w-3xl text-xl font-semibold leading-relaxed text-forjex-ink">
+          En FORJEX Consulting, la sostenibilidad no es un bloque aislado: es una forma de tomar
+          decisiones que protege la operación, fortalece a las personas y mejora la competitividad.
+        </p>
+      </div>
     </Section>
   );
 }

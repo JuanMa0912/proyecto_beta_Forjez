@@ -1,3 +1,5 @@
+import { Logo } from '@/components/ui/Logo';
+
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-white">
@@ -12,7 +14,19 @@ export function Hero() {
 
       <div className="container-fz py-20 text-center md:py-28">
         <div className="mx-auto max-w-4xl">
-          <span className="eyebrow">FORJEX Consulting</span>
+          <div className="mx-auto inline-flex items-center gap-3 sm:gap-4">
+            <span
+              aria-hidden="true"
+              className="hidden h-px w-12 bg-gradient-to-r from-transparent to-forjex-border sm:block"
+            />
+            <span className="inline-flex rounded-[22px] border border-forjex-border/80 bg-white px-5 py-3 shadow-soft">
+              <Logo imageClassName="h-14 md:h-20" sizes="(min-width: 768px) 290px, 220px" />
+            </span>
+            <span
+              aria-hidden="true"
+              className="hidden h-px w-12 bg-gradient-to-l from-transparent to-forjex-border sm:block"
+            />
+          </div>
           <h1 className="mx-auto mt-5 max-w-4xl text-display font-bold text-forjex-ink">
             Donde la estrategia se{' '}
             <span className="text-forjex-green">convierte en resultados</span>.
